@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+img {
+  height: 25px;
+  width: 25px;
+}
+body {
+  font-family: "Product Sans", sans-serif;
+  background: black;
+  color: aliceblue;
+}
+h1 {
+  background: linear-gradient(
+    to right,
+    #ffc501,
+    #ea9a01,
+    #fe8c03,
+    #fa7225,
+    #f86730,
+    #f04e4c,
+    #e93663,
+    #e1317e,
+    #ca45bd,
+    #bd51e0
+  );
+  background-clip: text;
+  color: transparent;
+}
+h2 {
+  color: antiquewhite;
+}
+.name_title {
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero_video {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15%);
+  backdrop-filter: saturation(15px);
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+li {
+  display: inline;
+}
+.navlist {
+  margin: 0% auto;
+}
+.nav_text {
+  margin-right: 29px;
+  font-size: 19px;
+  color: white;
+  font-size: 25px;
+  transition: all 0.3s ease-in;
+}
+.nav_text:hover {
+  color: rgb(0, 174, 174);
+  background-color: darkblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.logocontainer {
+  height: 60px;
+}
